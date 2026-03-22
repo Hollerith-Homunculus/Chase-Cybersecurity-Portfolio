@@ -1,7 +1,7 @@
 # Risk Compliance Docs
 
 ## Overview
-Brief 2–4 sentence description: what this is, why built, relevance to Help Desk or SOC roles.
+Sample risk assessments & policy snippets (Master's & Chargebacks911 ties)
 
 ## Environment & Tools
 - Virtualization: VirtualBox
