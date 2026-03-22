@@ -1,8 +1,7 @@
 # Incident Response Practice
 
 ## Overview
-Brief 2–4 sentence description: what this is, why built, relevance to Help Desk or SOC roles.
-
+Mock alert triage and mini-incident scenarios (SOC triage basics)
 ## Environment & Tools
 - Virtualization: VirtualBox
 - OS: Windows 11 / Server 2022 / Linux
