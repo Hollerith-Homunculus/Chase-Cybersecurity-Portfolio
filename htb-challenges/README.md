@@ -1,7 +1,7 @@
 # HTB Challenges
 
 ## Overview
-Brief 2–4 sentence description: what this is, why built, relevance to Help Desk or SOC roles.
+Hack The Box Academy modules & Starting Point write-ups (threat/vuln practice)
 
 ## Environment & Tools
 - Virtualization: VirtualBox
