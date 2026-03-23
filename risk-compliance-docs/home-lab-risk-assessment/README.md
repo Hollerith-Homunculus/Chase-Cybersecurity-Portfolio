@@ -1,15 +1,16 @@
-# [Project Name]
+# Home Lab Risk Assessment
 
-**Focus:** [e.g., Help Desk Ticket Simulation / Log Analysis]
+**Focus:** Treating Lab as a Small Organization
 
 ## Overview
-[1-2 sentences: what this is and why]
+Identified assets, threats, vulnerabilities, and controls in my VirtualBox lab environment.
 
-## What I Did
-- Bullet points of content or steps
+## Assets
+- Windows Server DC
+- Client VMs
 
-## Evidence
-- Add screenshots or documents here later
+## Risks & Controls
+- Threat: Weak passwords → Control: Enforce complexity via GPO
+- Threat: Exposed RDP → Control: Disable or use VPN
 
-## Key Takeaways
-- Skills shown: ...
+(Add simple table or list.)
