@@ -1,15 +1,14 @@
-# [Project Name]
+# Log Analysis Exercise
 
-**Focus:** [e.g., Help Desk Ticket Simulation / Log Analysis]
+**Focus:** Basic Windows Log Review (Event Viewer)
 
 ## Overview
-[1-2 sentences: what this is and why]
+Generated failed logins and suspicious events on a Windows VM, then analyzed in Event Viewer to practice detection basics.
 
-## What I Did
-- Bullet points of content or steps
+## Steps
+1. Created test user → Attempted 10 failed logins.
+2. Opened Event Viewer → Security logs → Filtered Event ID 4625.
+3. Documented patterns and potential indicators.
 
 ## Evidence
-- Add screenshots or documents here later
-
-## Key Takeaways
-- Skills shown: ...
+(Add screenshots of Event Viewer filters/results)
