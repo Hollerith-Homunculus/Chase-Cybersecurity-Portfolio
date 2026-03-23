@@ -1,15 +1,13 @@
-# [Project Name]
+# Simple Incident Triage Simulation
 
-**Focus:** [e.g., Help Desk Ticket Simulation / Log Analysis]
+**Focus:** Junior SOC Analyst Alert Handling
 
 ## Overview
-[1-2 sentences: what this is and why]
+3 mock alerts (phishing email, suspicious login, unusual process) with triage steps, rationale, and escalation decision.
 
-## What I Did
-- Bullet points of content or steps
+## Mock Alerts
+Alert 1: Phishing email reported
+- Triage: Check sender domain, links, attachments → Escalate to IR team.
+- Rationale: Potential credential theft.
 
-## Evidence
-- Add screenshots or documents here later
-
-## Key Takeaways
-- Skills shown: ...
+(Add 2 more.)
