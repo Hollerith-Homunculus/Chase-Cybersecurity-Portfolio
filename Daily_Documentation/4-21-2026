@@ -1,0 +1,33 @@
+# Chase’s Daily Documentation
+
+**Date: 04/21/26**
+## UMGC Studies Summary
+	Today, I completed a weekly discussion post about the vulnerabilities posed to supply chains and potential mitigation strategies.
+  Some of the covered topics include improperly-vetted third parties who introduce vulnerabilities through failing to comply with
+  best practices, geopolitical tensions creating stoppages, shortages or threatening infrastructure, and the opaque, disjointed nature of different links
+  in supply chains. Mitigation strategies include a stronger vetting of third-parties through more intensive adherence to practices stipulated in
+  contracts, proper compartmentalization of infrastructure to mitigate lateral movement attacks, and clear channels of communication.
+## Certification Studies Summary
+	Today's studies for the CompTIA A+ exam covered the different storage management technologies including RAID, NAS, and ISCSI. Knowing the importance
+  of different storage methodologies is great for determining which one is best for your organization. RAID, or Redundant Array of Independent Disks,
+  allows for data to be stored over multiple drives in a way that, should one drive fail, not all data is lost. That does not, however, mean RAID is a
+  backup. It is not! There is also NAS, Network Attached Storage, which provides a centralized storage drive that can be accessed across a network.
+  I've frequently seen NASs being recommended as a project for Home Labbers since it is relatively simple to set up and configure while allowing 
+  shared storage for all connected devices.
+## Hack The Box Summary
+	I am currently working through the Junior Cybersecurity Analyst (CJCA) path. Today, I completed the "Introduction to Networking Module" 
+  https://academy.hackthebox.com/achievement/2500497/34 It served as a great way to reinforce my knowledge on concepts such as IP and MAC addresses,
+  the OSI model, and VPNs while teaching me knew concepts like Key Exchange Mechanisms and connection protocols. Tomorrow, I will begin the Linux
+  Fundamentals Module.
+## Try Hack Me Summary
+  I am currently working through the Pre-Security path, which so far has provided a great refresher on some basic concepts such as the difference
+  between offensive and defensive security, networking and DNS. Today, I completed the HTTP in Detail Room. This gave a deep dive into
+  how the Hypertext Transfer Protocol works, how requests and responses work, and finally explained what "cookies" are in a network context. 
+  They serve as pieces of data that help a website remember you and load any personalized settings you've made.
+  https://tryhackme.com/room/httpindetail?utm_campaign=social_share&utm_medium=social&utm_content=share-completed-room&utm_source=copy&sharerId=69d666a2f7921bd9d2f62f7e
+## Home Lab Summary
+	In order to manage, configure and protect my network, I must figure out what all constitutes my network. To achieve this, I drafted my first network
+  topology diagram. It shows how the different pieces of harware in my home lab are connected, giving a blueprint on how to eventually
+  organize them, apply controls, and potentially segment them with VLAN. That will be one of many future projects.
+  Additionally, I finally figured out some basic navigation and documentation for GitHub. In the future, I hope to learn more so I can create
+  more professional documentation and eventually host diagrams I draw and/or code that I write.
