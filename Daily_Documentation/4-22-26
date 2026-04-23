@@ -1,0 +1,28 @@
+# Chase’s Daily Documentation
+
+**Date: 04/22/26**
+## UMGC Studies Summary
+	Today, I began work on the last assignment for my current class. This assignment is for creating sections of a Configuration Management
+  Plan, which is a document used by organizations to ensure that hardware and software are configured in a way that best aligns
+  with business functions and security concerns. 
+## Certification Studies Summary
+	Today's focus for my CompTIA A+ Certification was on cloud-based productivity tools. As more businesses migrate to or establish operations in the cloud, 
+  finding ways to boost productivity are crucial. Some of the specific tools covered include email services, multi-factor authentication, and APIs.
+## Hack The Box Summary
+	I finished the "Introduction to Networking" module, and began "Linux Fundamentals." Summarizing all that I have learned about networking will
+  serve me well since I plan on learning how to map, monitor and secure my home network. Linux, meanwhile, is an important skill to have
+  since much of the internet's infrastructure (servers, cloud, IoT, mobile) runs on distributions of Linux. 
+## Try Hack Me Summary
+  I completed the "How the Web Works" module, combining all that I have learned about different hardware, software and protocols. This included labs
+  on some of the basics of HTML and Javascript. I had some knowledge of HTML from a web design class I took in high school, so it was good to 
+  brush up. After I've gained enough confidence with the basics of Python, I may choose Javascript to be the next language I learn so that I can
+  get my "Cool Under Fire LLC" website up-and-running. That would be a great future project.
+## Home Lab Summary
+	Most of this evening was spent running through commands on my Ubuntu desktop computer. I found a few lists of important terminal commands
+  and found some good potential programs for system monitoring. Getting familiar with the terminal is considered a requirement for 
+  Linux users because it allows for more direct and detailed instructions to the kernel. I experimented with commands for moving between
+  file folders, creating and editing files, updating software, finding my IP address, and many others. After that, I went back to tinkering
+  with an old HP laptop I have in my lab. Although it officially supports Windows 11, it has incredibly limited storage that is too full to update.
+  I attempted a factory reset, but it didn't work. Since it was a budget laptop released in 2018, I spent the remainder of my evening shopping
+  for the RAM and SSD components online. I've heard how expensive RAM and SSDs have gotten, so I was worried it would be out of my budget, but it
+  would cost about $100 total. Disassembling the laptop and dropping in these new components could be another learning opportunity.
