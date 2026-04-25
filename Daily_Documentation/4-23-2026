@@ -1,0 +1,22 @@
+# Chase’s Daily Documentation
+
+**Date: 04/23/26**
+## UMGC Studies Summary
+	Today, I worked more on the CMP assignment. I've begun putting together sources for establishing roles & responsibility, an ISTM ticketing system, and SDLC
+(System Development Lifecycle). These are crucial elements for an organization to have in their CMPs because establishing a clear chain of command, system to report
+technical problems and development can provide structure and peace of mind in the event of an organization.
+## Certification Studies Summary
+	The section I've reached with CompTIA A+ is on the more intricate menus of Microsoft Office and the Linux Terminal. Knowing how to configure things like access controls,
+privileges and directories can prevent risks like lateral movement, privilege escalation and credential abuse. 
+## Hack The Box Summary
+	On HTB, I learned the basics of using the Unix Shell. Shell scripting is a common tool for automation, devops and file manipulation. Since both Linux and modern
+macOS have a Unix shell, many of these commands can be used on both. I haven't experimented much with my Macbook yet, but I would like to.
+## Try Hack Me Summary
+  Today, I completed the "How the Web Works" module, giving me some of the basics of how websites function. As I have said before, I have some base familiarity with HTML,
+which I find to be a very easy language to read and write. 
+## Home Lab Summary
+	Most of the day was spent running errands, which included a trip to Best Buy to check prices on equipment and pick up a larger network switch. I also bought a few 
+USB-Ethernet cables for the laptops that don't have ethernet ports in them. I've also been in the market to upgrade one of my older laptops with more RAM and 
+storage, which I believe I mentioned yesterday. A new estimate is between $50-$70. This would allow me to double RAM to 16GB, and double storage to 256GB. 
+The laptop has been running slow and its storage is so full that there isn't enough space to upgrade to Windows 11 or do a factory reset. I might not upgrade it to 
+W11 anyway, I already have 2 other W11 laptops (although they're only Home Edition, and a Pro upgrade is $100).
