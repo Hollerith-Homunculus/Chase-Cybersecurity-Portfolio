@@ -1,0 +1,30 @@
+# Chase’s Daily Documentation
+
+**Date: 04/24/2026**
+## UMGC Studies Summary
+	Today, I drafted more of my paper, focusing on constructing a configuration plan for a ticketing system. According to the
+assignment prompt, it's for the payroll department of a government agency. This means that adherence to the NIST SP 800-series
+publications is a requirement. Luckily, there are plenty of publications to draw from. I also learned that the U.S. Government mainly uses
+ServiceNow for IT-related ticketing needs. 
+## Certification Studies Summary
+	I continued my CompTIA A+ studies by taking one of the practice exams offered by Mammoth Club. It was composed of 59 multiple-choice questions which
+I found to be quite easy. There were still a few questions on concepts I have not learned about yet, but I made note of them so I can reinforce those areas
+and prepare to take another practice exam. I also know part of the A+ exam involves practical skills simulations, so I'll have to see if any of these exams
+cover those or do some research on what kinds of resources I can find to practice.
+## Hack The Box Summary
+	I continued studying the Linux Fundamentals module, but I have run into a problem; I only have a free account, and it limits me to one use of the "pwnbox"
+virtual test environment per day. There is an option to download a copy to be deployed on your own Linux distro and connect via OpenVPN, but I was unable to
+get that working. I tried updating an instance of Kali Linux I had in VirtualBox but ended up breaking it. I may be able to either try it on my Ubuntu
+desktop or download a newer Kali ISO. Or cough up the money for a subscription that gives unlimited pwnbox access. Decisions, decisions...
+## Try Hack Me Summary
+  The material covered today in THM was a bit of a step backwards. Currently, I've been working through several rooms about the basics of how computers work,
+types of computers and the client-server model.
+## Home Lab Summary
+  Tonight, I dug back into learning some of the common tools for network security: Wireshark, Nmap and Burpsuite. I've used these tools previously for 
+assignments, but never dove deeply into them. I still don't fully understand how Wireshark works, but I've discovered how to filter by protocol
+so I can see the difference between TCP, UDP, etc. and how to filter by IP address. With Nmap, I have the Zenmap GUI installed, which makes it easier to
+select options and cleanly organize results. By combining these two tools, I was better able to map my existing network and discovered a potential origin
+for a previously-unknown device. This device, which uses an Expressif chip (I learned through referencing the MAC address), confused me. Using Nmap, I 
+scanned it and only got more confused. According to Nmap, it's some kind of British Gas datalogger (which makes no sense, I live in the U.S.). 
+Apparently I'm not the only one who had this problem, and other potential claims were that it was some kind of IoT device, but all of mine are accounted
+for. Regardless, I blocked it from our Wi-Fi.
