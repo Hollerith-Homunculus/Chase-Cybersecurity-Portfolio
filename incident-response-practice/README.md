@@ -1,50 +1,61 @@
 # Incident Response Practice
 
-**Focus:** SOC Tier 1 Alert Triage + Mini-Incident Response Scenarios  
-**Status:** In Progress (Foundational Mock Exercises)
+**Focus:** SOC Tier 1 Alert Triage + Practical Incident Response Exercises  
+**Status:** In Progress (Strong Foundational Coverage)
 
 ## Overview
-This folder documents mock alert triage and small-scale incident response exercises using my home lab (Windows, Ubuntu, Wazuh, pfSense, etc.).  
+This section documents mock alert triage, mini-incident simulations, and response exercises using my home lab environment (Wazuh SIEM, pfSense, Windows/Linux endpoints, Volatility, etc.).
 
-These projects simulate real SOC workflows: detecting, investigating, containing, and documenting security events. They build practical skills in log analysis, tool usage, and structured response while tying into Security+ and CompTIA CySA+ concepts.
+The projects simulate real SOC workflows — from alert detection to containment, eradication, recovery, and lessons learned — while building skills directly relevant to junior SOC Analyst and help desk roles.
 
-**Goal:** Demonstrate SOC readiness through documented triage and response activities.
+**Goal:** Demonstrate structured, tool-driven incident handling and clear documentation for escalation or client reporting.
 
 ## Projects
 
-| Date       | Scenario / Exercise                     | Tools Used                     | Status     | Link |
-|------------|-----------------------------------------|--------------------------------|------------|------|
-| 2026-05-xx | Mock Alert Triage (Wazuh Dashboard)    | Wazuh, Event Viewer            | Complete   | [mock-alert-triage/](./mock-alert-triage/) |
-| 2026-05-xx | Simulated Malware Incident Response    | Wireshark, Volatility, PowerShell | In Progress | [malware-incident.md](./malware-incident.md) |
-| 2026-05-xx | Phishing / Suspicious Login Investigation | AD Logs, Wireshark           | Planned    | [phishing-investigation.md](./phishing-investigation.md) |
-| ...        | ...                                     | ...                            | ...        | ... |
+| Date       | Exercise / Scenario                        | Key Tools                     | Status     | Link |
+|------------|--------------------------------------------|-------------------------------|------------|------|
+| 2026-05-xx | Wazuh Alert Triage Example                 | Wazuh, Event Viewer           | Complete   | [mock-alert-triage/Wazuh-Alert-Triage-Example-1.md](./mock-alert-triage/Wazuh-Alert-Triage-Example-1.md) |
+| 2026-05-xx | False Positive vs True Positive            | Wazuh, Wireshark              | Complete   | [false-positive-vs-true-positive.md](./false-positive-vs-true-positive.md) |
+| 2026-05-xx | Suspicious Login Investigation             | AD Logs, Wazuh, Event Viewer  | Complete   | [suspicious-login-investigation.md](./suspicious-login-investigation.md) |
+| 2026-05-xx | Simulated Malware Incident Response        | Wazuh, Wireshark, Volatility  | Complete   | [malware-incident-response.md](./malware-incident-response.md) |
+| 2026-05-xx | Phishing Email Investigation               | Headers, VirusTotal, Wazuh    | Complete   | [phishing-investigation.md](./phishing-investigation.md) |
+| 2026-05-xx | Simulated Ransomware Response              | Wazuh, pfSense, Snapshots     | Complete   | [ransomware-simulation-response.md](./ransomware-simulation-response.md) |
+| 2026-05-xx | Basic Memory Forensics with Volatility     | Volatility                    | Complete   | [basic-forensics-volatility.md](./basic-forensics-volatility.md) |
+| 2026-05-xx | Incident Escalation & Reporting            | Documentation Templates       | Complete   | [ir-escalation-reporting.md](./ir-escalation-reporting.md) |
+
+## Supporting Documents
+- [IR Playbook Template](./IR-Playbook-Template.md)
+- [Incident Response Checklist](./Incident-Response-Checklist.md)
 
 ## Environment & Tools
-- **Lab**: Windows 11/10 endpoints, Ubuntu (Wazuh), pfSense, Raspberry Pi
-- **Core Tools**: Wazuh SIEM, Wireshark, Event Viewer, PowerShell, Volatility
-- **Methodology**: Follow NIST IR phases (Preparation, Detection, Analysis, Containment, Eradication, Recovery, Lessons Learned)
+- **SIEM**: Wazuh on Ubuntu
+- **Network Security**: pfSense firewall + VLANs
+- **Analysis**: Wireshark, Volatility, Event Viewer, PowerShell
+- **Lab Setup**: Windows 11/10, Ubuntu, isolated segments
 
 ## Skills Demonstrated
-- Alert triage and prioritization
-- Log analysis and correlation
-- Containment and basic forensics
-- Clear incident documentation
-- Use of multiple tools for investigation
+- Rapid alert triage and prioritization
+- Structured incident response (NIST-based)
+- Log correlation and tool integration
+- Clear documentation and escalation
+- Distinguishing noise from real threats
 
 ## SOC Analyst Relevance
 These exercises mirror daily SOC responsibilities:
-- Triaging Wazuh/SIEM alerts
+- Triaging SIEM alerts
 - Investigating suspicious activity
-- Documenting incidents for handoff or reporting
-- Applying structured response frameworks
+- Containing threats quickly
+- Documenting for handoff and lessons learned
 
-## Next Steps / Future Improvements
-- Add more complex scenarios (ransomware simulation, lateral movement)
-- Integrate full Wazuh + pfSense log correlation
-- Create a simple IR Playbook markdown
-- Simulate chain-of-custody and reporting
+Strong foundation for CompTIA CySA+ and real-world SOC work.
+
+## Next Steps / Future Enhancements
+- More complex scenarios (lateral movement, data exfiltration)
+- Full Wazuh + pfSense log correlation
+- Live ticketing integration with CoolUnderFire LLC
+- Purple team exercises (attack + defense)
 
 ---
 
 **Last Updated**: May 2026  
-Part of the broader home lab portfolio demonstrating hands-on defensive security skills.
+Part of the broader home lab portfolio showcasing defensive security and SOC readiness. See main portfolio README for links to AD, networking, SIEM setup, HTB/TryHackMe, and other sections.
