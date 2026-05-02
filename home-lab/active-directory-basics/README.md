@@ -1,62 +1,79 @@
 # Active Directory Basics Lab
 
-**Focus:** Help Desk / Service Desk Support + Basic Access Control Practice
+**Focus:** Help Desk / Service Desk Support + Identity & Access Management (IAM) Practice  
+**Status:** In Progress (Core Setup Complete)
 
 ## Overview
-This lab demonstrates foundational Active Directory (AD) setup and management using a Windows Server domain controller and client VMs.  
-These skills are core for entry-level IT Help Desk roles (e.g., user account creation, password resets, group management) and provide a foundation for understanding access control and least-privilege principles in cybersecurity.
+This lab demonstrates foundational Active Directory Domain Services (AD DS) setup and management using a Windows Server domain controller and client VMs.  
 
-Goal: Simulate common Tier 1 support tasks while applying basic security best practices.
+These skills are essential for entry-level IT Help Desk, System Administrator, and junior SOC Analyst roles (user provisioning, access control, Group Policy, and basic troubleshooting). It also reinforces Security+ Domain 5 (Identity and Access Management) and concepts from the Master’s program.
+
+**Goal:** Simulate Tier 1 support tasks while applying security best practices such as least privilege and strong password policies.
 
 ## Environment & Tools
-- Virtualization: VirtualBox
-- Server: Windows Server 2022 (evaluation ISO)
-- Client: Windows 11 (evaluation ISO)
-- Tools: Active Directory Users and Computers (dsa.msc), Group Policy Management (gpmc.msc), PowerShell (basic commands)
-- Network: Host-Only adapter (isolated lab network)
+- **Virtualization**: VirtualBox
+- **Server**: Windows Server 2022 (evaluation)
+- **Clients**: Windows 11 (evaluation)
+- **Tools**: Active Directory Users and Computers (`dsa.msc`), Group Policy Management (`gpmc.msc`), PowerShell, RSAT tools
+- **Network**: Isolated Host-Only or pfSense internal network
 
-## What I Did
-- Promoted Windows Server VM to a domain controller (created domain: lab.local).
-- Joined a Windows 11 client VM to the domain.
-- Created user accounts, security groups, and organizational units (OUs).
-- Configured basic Group Policy Objects (GPOs) for password policy and account lockout.
-- Performed common support tasks: password reset, user lock/unlock, group membership changes.
+**Simple Architecture**:
+Windows Server 2022 (DC) - lab.local
+|
+Windows 11 Clients
+|
+Organizational Units (OUs) + Security Groups
 
-## Step-by-Step Summary
-1. Installed Windows Server 2022 in a VM and configured static IP.
-2. Installed Active Directory Domain Services role → Promoted to domain controller (dcpromo wizard).
-3. Created domain: lab.local.
-4. Joined Windows 11 client to domain via System Properties → Change settings.
-5. In AD Users and Computers:
-   - Created OU: "Users"
-   - Created test users (e.g., testuser1, helpdeskadmin)
-   - Created security group: "Help Desk Team"
-   - Added users to group
-6. Created GPO: "Password Policy" – enforced minimum length 12 characters, complexity enabled.
-7. Tested: Reset password for testuser1 from client VM, verified lockout after failed attempts.
 
-## Screenshots / Evidence
-![Domain Controller Promotion](./screenshots/domain-controller-setup.png)  
-![User and Group Creation](./screenshots/ad-users-groups.png)  
-![Group Policy Editor](./screenshots/gpo-password-policy.png)  
-![Client Joined to Domain](./screenshots/client-domain-join.png)
+## Projects / Documents
 
-(Add more screenshots as you complete labs – upload them to a `screenshots/` subfolder inside active-directory-basics/)
+| Date       | Topic                              | Key Skills Demonstrated                     | Status     | Link |
+|------------|------------------------------------|---------------------------------------------|------------|------|
+| 2026-04-24 | AD Domain Controller Setup         | DC promotion, domain creation               | Complete   | [Domain-Setup.md](./Domain-Setup.md) |
+| 2026-05-01 | User & Group Management            | OUs, users, groups, password resets         | Complete   | [User-Management.md](./User-Management.md) |
+| 2026-05-02 | Basic Group Policy Objects         | Password policy, lockout, screen timeout    | Complete   | [Basic-GPOs.md](./Basic-GPOs.md) |
+| ...        | ...                                | ...                                         | ...        | ... |
 
-## Key Outcomes & Lessons
-- Successfully built a functional AD domain from scratch – mirrors real-world MSP/help desk environments.
-- Learned how weak password policies create security risks (e.g., easy guessing) – ties to Security+ access control and identity management topics.
-- Demonstrates ability to perform routine user administration tasks calmly and accurately – essential for Service Desk roles.
+## What I Did (Summary)
+- Promoted Windows Server to Domain Controller (`lab.local`)
+- Joined Windows 11 client to the domain
+- Created OUs, test users, security groups
+- Configured basic GPOs (password complexity, account lockout)
+- Performed common help desk tasks (password reset, unlock, group membership)
 
 ## Skills Demonstrated
-- **Technical:** Active Directory administration, user/group management, Group Policy configuration, domain joining, basic PowerShell (e.g., `New-ADUser`)
-- **Help Desk:** Troubleshooting login issues, password resets, account lockouts
-- **Security/Compliance:** Applying least-privilege access, enforcing password complexity (links to Master's policy coursework and PCI DSS-like controls from Chargebacks911 experience)
+- **Technical**: AD DS installation, domain joining, user/group/OUs management, GPO creation, basic PowerShell (`New-ADUser`, `Add-ADGroupMember`)
+- **Help Desk**: Account lifecycle, troubleshooting login issues
+- **Security**: Least privilege, password policies, audit basics (ties to Security+ and Master’s policy coursework)
 
-## Next Steps / Future Improvements
-- Add more advanced GPOs (e.g., restrict USB devices, enforce screen lock timeout).
-- Integrate with security tools (e.g., forward AD logs to a SIEM in a future lab).
-- Simulate a help desk ticket: "User locked out – resolve and document."
-- Automate user creation with PowerShell scripts.
+## SOC Analyst Relevance
+Understanding Active Directory is critical in SOC environments because:
+- Most organizations use AD for identity
+- Attackers frequently target AD (Kerberoasting, Golden Ticket, etc.)
+- SOC analysts review AD logs for suspicious logons and permission changes
+- Helps with access control investigations and incident response
 
-This lab is part of ongoing deliberate practice to transition from customer service to IT support / cybersecurity roles.
+## Screenshots / Evidence
+(Upload to a `screenshots/` subfolder)
+
+![Domain Controller Promotion](screenshots/dc-promotion.png)  
+![AD Users and Computers](screenshots/ad-users.png)  
+![Group Policy Password Settings](screenshots/gpo-password-policy.png)  
+![Client Joined to Domain](screenshots/domain-joined-client.png)
+
+## Key Outcomes & Lessons
+- Successfully built a functional domain from scratch — mirrors real MSP/help desk environments.
+- Learned how weak policies create real security risks.
+- Gained confidence performing routine IAM tasks accurately and securely.
+
+## Next Steps / Future Labs
+- Advanced GPOs (USB restrictions, login scripts)
+- AD logging & integration with Wazuh SIEM
+- Simulate help desk tickets and compromised accounts
+- PowerShell automation for user provisioning
+- Basic AD attack/defense exercises (e.g., password spraying awareness)
+
+---
+
+**Last Updated**: May 2026  
+This lab is part of deliberate practice transitioning customer service experience into cybersecurity / IT support roles.
