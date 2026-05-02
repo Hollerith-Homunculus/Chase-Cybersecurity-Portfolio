@@ -15,7 +15,7 @@ This folder documents foundational networking projects using my home lab hardwar
 
 | Date       | Project / Topic                        | Key Skills Demonstrated                          | Status      | Link |
 |------------|----------------------------------------|--------------------------------------------------|-------------|------|
-| 2026-04-xx | pfSense Firewall Installation & Basic Rules | Firewall deployment, NAT, outbound rules        | Complete    | [pfSense-Setup.md](./pfSense-Setup.md) |
+| 2026-04-xx | pfSense Firewall Installation & Basic Rules | Firewall deployment, NAT, outbound rules        | Complete    | [https://github.com/Hollerith-Homunculus/Chase-Cybersecurity-Portfolio/blob/main/home-lab/basic-network-setup-troubleshooting/2026-05-02-pfSense-Firewall-Setup.md](./2026-05-02-pfSense-Firewall-Setup.md) |
 | 2026-05-xx | Network Segmentation & VLAN Basics     | Logical separation, inter-VLAN routing          | In Progress | [VLAN-Segmentation.md](./VLAN-Segmentation.md) |
 | 2026-05-xx | Wireshark Packet Capture & Analysis    | Traffic inspection, protocol analysis           | Complete    | [Wireshark-Basics.md](./Wireshark-Basics.md) |
 | 2026-05-xx | Common Connectivity Troubleshooting    | IP config, DNS, DHCP issues                     | Complete    | [Troubleshooting-Common-Issues.md](./Troubleshooting-Common-Issues.md) |
