@@ -48,19 +48,31 @@ See [Skills-Matrix.md](./Skills-Matrix.md) for a detailed overview of technical 
 Thank you for visiting — feel free to explore the folders above!
 
 ## Repository Structure
-- **home-lab/** → VirtualBox setups, Windows troubleshooting, Active Directory basics (A+ focus)
-- **htb-challenges/** → Hack The Box Academy modules & Starting Point write-ups (threat/vuln practice)
-- **incident-response-practice/** → Mock alert triage and mini-incident scenarios (SOC triage basics)
-- **risk-compliance-docs/** → Sample risk assessments & policy snippets (Master's & Chargebacks911 ties)
+- certifications/ → CompTIA A+ and Security+ progress, scores, and lab reinforcement
+- home-lab/ → Full lab documentation (networking, Active Directory, Wazuh SIEM, troubleshooting)
+- htb-tryhackme/ → Hack The Box Starting Point and TryHackMe SOC Analyst path write-ups
+- incident-response-practice/ → Mock alert triage, malware, phishing, ransomware, and forensics exercises
+- risk-compliance-docs/ → Risk assessments, access control policies, password policy, least privilege, GDPR checklist, and risk register
+- scripting-automation/ → PowerShell AD automation, Python log parsing, Wazuh alert scripting
+- CoolUnderFire-Cybersecurity-LLC/ → Real support tickets and side business documentation
+- resume-cert-progress/ (or merged into certifications) → Overall cert tracking and job materials
 
 ## Highlighted Work
-- **Windows Client Troubleshooting Lab** → [home-lab/windows-client-troubleshooting/](home-lab/windows-client-troubleshooting/)  
-  Simulated help desk tickets: driver issues, connectivity, password resets.
-- **Active Directory Basics** → [home-lab/active-directory-basics/](home-lab/active-directory-basics/)  
-  User/group management, Group Policy — common MSP/help desk tasks.
-- **HTB Starting Point Write-ups** → [htb-challenges/starting-point/](htb-challenges/starting-point/)  
-  Basic exploitation, privilege escalation, log analysis.
-- **Mock SOC Alert Triage** → [incident-response-practice/mock-alert-triage/](incident-response-practice/mock-alert-triage/)  
-  Simulated alerts with triage steps and escalation rationale.
+- Active Directory Basics → home-lab/active-directory-basics/
+  Full domain setup, user/group management, GPOs, troubleshooting, and PowerShell automation — core help desk and SOC identity skills.
+- Wazuh SIEM & Monitoring → Part of home-lab and incident-response-practice
+  SIEM deployment, alert triage, log correlation, and custom Python scripting.
+- Incident Response Practice → incident-response-practice/
+  Mock alert triage, malware/ransomware simulation, phishing investigation, Volatility forensics, and escalation reporting.
+- Risk & Compliance Documentation → risk-compliance-docs/
+  Home lab risk assessment, risk register, access control policy, password policy, least privilege, and GDPR checklist.
+- Networking & Troubleshooting → home-lab/ (Basic Network Setup folder)
+  pfSense firewall, VLAN segmentation, Wireshark analysis, and connectivity troubleshooting.
+- HTB & TryHackMe → htb-tryhackme/
+  Starting Point machines and SOC Analyst path rooms with defensive takeaways.
+- Scripting & Automation → scripting-automation/
+  PowerShell AD automation and Python Wazuh alert parsing examples.
+- CoolUnderFire Cybersecurity LLC → CoolUnderFire-Cybersecurity-LLC/
+  Real support ticket documentation and side business operations.
 
 
