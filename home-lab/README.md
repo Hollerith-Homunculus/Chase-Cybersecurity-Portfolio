@@ -16,7 +16,6 @@ This folder documents my hands-on home lab environment and SOC-focused projects.
 | 2026-05-xx | Windows Event Log Analysis & Sysmon   | Threat hunting, log parsing with Wazuh           | In Progress| [Windows-Logging.md](./Windows-Logging.md) |
 | ...        | ...                                   | ...                                              | ...        | ... |
 
-*(Add rows as you complete projects — keep this table updated)*
 
 ## Lab Architecture Summary
 - **Central SIEM**: Wazuh on Ubuntu desktop ingesting logs from all Windows machines and Raspberry Pi.
@@ -50,4 +49,4 @@ All projects include:
 **Last Updated**: May 2026  
 **Goal**: 8–12 well-documented projects by graduation (August 2026) to show employers I can operate in a real SOC environment.
 
-See the main repo README for overall portfolio and links to HTB / TryHackMe / CoolUnderFire LLC.
+See the main repo README for overall portfolio and links to HTB / TryHackMe / CoolUnderFire Cybersecurity LLC.
