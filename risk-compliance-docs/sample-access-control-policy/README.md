@@ -1,16 +1,41 @@
-# Home Lab Risk Assessment
+# Sample Access Control Policies
 
-**Focus:** Treating Lab as a Small Organization
+**Subfolder Focus:** Example security policies for access control, passwords, least privilege, and related topics.
 
 ## Overview
-Identified assets, threats, vulnerabilities, and controls in my VirtualBox lab environment.
+This subfolder contains sample policy documents developed for the home lab and CoolUnderFire Cybersecurity LLC. These policies demonstrate my ability to translate cybersecurity best practices and Master’s program knowledge into clear, enforceable documents suitable for small businesses or MSP clients.
 
-## Assets
-- Windows Server DC
-- Client VMs
+## Documents
 
-## Risks & Controls
-- Threat: Weak passwords → Control: Enforce complexity via GPO
-- Threat: Exposed RDP → Control: Disable or use VPN
+| File                        | Description                                      | Status     |
+|-----------------------------|--------------------------------------------------|------------|
+| Access-Control-Policy.md    | High-level access control framework              | Complete   |
+| Password-Policy-Example.md  | Detailed password requirements and management    | Complete   |
+| Least-Privilege-Policy.md   | Least privilege principle and implementation     | Complete   |
 
-(Add simple table or list.)
+## Key Principles Reflected
+- Least Privilege
+- Role-Based Access Control (RBAC)
+- Strong authentication & password hygiene
+- Monitoring, auditing, and regular reviews
+- Balance between security and usability
+
+## SOC Analyst / GRC Relevance
+- SOC teams implement and enforce these types of policies daily.
+- Demonstrates ability to create client-ready documentation.
+- Supports compliance efforts and risk reduction.
+
+## Usage Notes
+- These are living templates — customize per client environment or lab needs.
+- Enforce via Active Directory Group Policy Objects (GPOs) where applicable.
+- Review and update policies annually or after significant incidents.
+
+## Next Steps
+- Add more policies (Data Classification, Incident Response, Acceptable Use)
+- Map policies to NIST / CIS Controls
+- Create implementation guides with screenshots from the lab
+
+---
+
+**Last Updated**: May 2026  
+Part of the broader Risk & Compliance section. See parent folder for risk assessments and overall documentation.
