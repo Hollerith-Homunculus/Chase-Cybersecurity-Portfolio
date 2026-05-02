@@ -1,36 +1,50 @@
 # Incident Response Practice
 
+**Focus:** SOC Tier 1 Alert Triage + Mini-Incident Response Scenarios  
+**Status:** In Progress (Foundational Mock Exercises)
+
 ## Overview
-Mock alert triage and mini-incident scenarios (SOC triage basics)
+This folder documents mock alert triage and small-scale incident response exercises using my home lab (Windows, Ubuntu, Wazuh, pfSense, etc.).  
+
+These projects simulate real SOC workflows: detecting, investigating, containing, and documenting security events. They build practical skills in log analysis, tool usage, and structured response while tying into Security+ and CompTIA CySA+ concepts.
+
+**Goal:** Demonstrate SOC readiness through documented triage and response activities.
+
+## Projects
+
+| Date       | Scenario / Exercise                     | Tools Used                     | Status     | Link |
+|------------|-----------------------------------------|--------------------------------|------------|------|
+| 2026-05-xx | Mock Alert Triage (Wazuh Dashboard)    | Wazuh, Event Viewer            | Complete   | [mock-alert-triage/](./mock-alert-triage/) |
+| 2026-05-xx | Simulated Malware Incident Response    | Wireshark, Volatility, PowerShell | In Progress | [malware-incident.md](./malware-incident.md) |
+| 2026-05-xx | Phishing / Suspicious Login Investigation | AD Logs, Wireshark           | Planned    | [phishing-investigation.md](./phishing-investigation.md) |
+| ...        | ...                                     | ...                            | ...        | ... |
+
 ## Environment & Tools
-- Virtualization: VirtualBox
-- OS: Windows 11 / Server 2022 / Linux
-- Tools: [e.g., Event Viewer, PowerShell, Wireshark, HTB platform]
-- Other: [screenshots folder, .xlsx risk register if applicable]
+- **Lab**: Windows 11/10 endpoints, Ubuntu (Wazuh), pfSense, Raspberry Pi
+- **Core Tools**: Wazuh SIEM, Wireshark, Event Viewer, PowerShell, Volatility
+- **Methodology**: Follow NIST IR phases (Preparation, Detection, Analysis, Containment, Eradication, Recovery, Lessons Learned)
 
-## What I Did
-- Bullet points of key actions/configs (e.g., Created domain, joined client, enforced password policy)
+## Skills Demonstrated
+- Alert triage and prioritization
+- Log analysis and correlation
+- Containment and basic forensics
+- Clear incident documentation
+- Use of multiple tools for investigation
 
-## Step-by-Step Summary
-1. Step 1 description
-2. Step 2 description
-   - Command: `net user testuser P@ssw0rd /add`
-3. ...
+## SOC Analyst Relevance
+These exercises mirror daily SOC responsibilities:
+- Triaging Wazuh/SIEM alerts
+- Investigating suspicious activity
+- Documenting incidents for handoff or reporting
+- Applying structured response frameworks
 
-## Screenshots / Evidence
-![Screenshot 1 - Description](./screenshots/image1.png)
-![Screenshot 2 - Description](./screenshots/image2.png)
+## Next Steps / Future Improvements
+- Add more complex scenarios (ransomware simulation, lateral movement)
+- Integrate full Wazuh + pfSense log correlation
+- Create a simple IR Playbook markdown
+- Simulate chain-of-custody and reporting
 
-## Key Outcomes & Lessons
-- Resolved [issue] by [method]
-- Demonstrates [skill: troubleshooting / log analysis / policy enforcement]
-- Tie to job: Mirrors Tier 1 ticket resolution / alert triage
+---
 
-## Skills Shown
-- Technical: Active Directory, Windows troubleshooting, basic networking
-- Soft: Clear documentation, analytical thinking
-- Compliance: [e.g., Access control principles from Master's]
-
-## Next Steps
-- Add automation script
-- Integrate SIEM log forwarding
+**Last Updated**: May 2026  
+Part of the broader home lab portfolio demonstrating hands-on defensive security skills.
