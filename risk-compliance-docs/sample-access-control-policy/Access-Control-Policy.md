@@ -3,7 +3,7 @@
 **Document ID**: CCF-POL-001  
 **Version**: 1.0  
 **Effective Date**: May 2026  
-**Owner**: Chase [Last Name], CoolUnderFire Cybersecurity LLC  
+**Owner**: Chase Cooley, CoolUnderFire Cybersecurity LLC  
 **Purpose**: Define rules for granting, managing, and revoking access to systems and data to ensure confidentiality, integrity, and availability.
 
 ## 1. Scope
