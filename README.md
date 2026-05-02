@@ -1,10 +1,51 @@
-# Cybersecurity & IT Portfolio – Chase Cooley
+# Chase Cooley Cybersecurity Portfolio
 
-**Aspiring Help Desk Technician → Junior SOC Analyst**  
-Pursuing MS in Cybersecurity Management & Policy (UMGC, expected Aug 2026) | CompTIA A+ & Security+ in progress  
+**Aspiring SOC Analyst** | UMGC Master’s in Cybersecurity Management & Policy (Graduating August 2026)  
+**CompTIA A+ (Core 1 Complete)** | **Security+ (In Progress)**  
+  
 Clearwater, FL | [LinkedIn](https://www.linkedin.com/in/chase-cooley-245812199/) | [Hack The Box](https://profile.hackthebox.com/profile/019d1209-4247-708d-838e-7480fd574451)
 
-This repo documents my deliberate hands-on practice to break into IT support / cybersecurity. It shows troubleshooting, OS management, basic security operations, documentation, and policy application — skills for entry-level **Help Desk / Service Desk** roles and progression to **Junior SOC Analyst**.
+## Welcome
+This repository showcases my hands-on cybersecurity journey — home lab projects, certifications, incident response practice, risk & compliance documentation, and real support work through CoolUnderFire Cybersecurity LLC.  
+
+It demonstrates practical skills that go beyond theory, with clear documentation, screenshots, and SOC Analyst relevance throughout.
+
+## Portfolio Sections
+
+| Section                        | Focus Area                              | Highlights |
+|--------------------------------|-----------------------------------------|----------|
+| [certifications](./certifications) | CompTIA A+ & Security+ progress        | Detailed tracking, lab reinforcement |
+| [home-lab](./home-lab)         | Full lab environment & projects         | AD, Networking, Wazuh SIEM, troubleshooting |
+| [htb-tryhackme](./htb-tryhackme) | Practical offensive/defensive practice | Starting Point, SOC Analyst path |
+| [incident-response-practice](./incident-response-practice) | SOC triage & IR simulations            | Wazuh alerts, malware, phishing, ransomware |
+| [risk-compliance-docs](./risk-compliance-docs) | Policies, risk assessments             | Risk register, access control, GDPR checklist |
+| [scripting-automation](./scripting-automation) | PowerShell & Python automation        | AD scripting, Wazuh alert parsing |
+| [CoolUnderFire-Cybersecurity-LLC](./CoolUnderFire-Cybersecurity-LLC) | Real support tickets & business        | Live IT/security support documentation |
+
+## Key Strengths
+- **Hands-on Lab**: Production-like environment with SIEM, AD, firewall, and segmentation
+- **SOC Focus**: Strong incident response, alert triage, and defensive documentation
+- **Compliance & Policy**: Risk management and policy artifacts from Master’s coursework
+- **Automation**: Scripting examples for real efficiency gains
+- **Real-World**: CoolUnderFire Cybersecurity LLC support experience
+
+## Skills Matrix
+See [Skills-Matrix.md](./Skills-Matrix.md) for a detailed overview of technical skills, certifications, and projects.
+
+## Network Diagram
+![Home Lab Network Diagram](Network Diagram v1.png)
+
+## Next Goals (by August 2026 Graduation)
+- Pass A+ Core 2 and Security+
+- Complete HTB Starting Point + THM SOC Level 1
+- Document 15–20+ lab & IR projects
+- Launch CoolUnderFire support tickets
+- Apply to entry-level SOC Analyst / Security Operations roles in Tampa Bay
+
+**Last Updated**: May 2026
+**Availability**: Open to junior SOC Analyst, Security Operations, or Help Desk-to-SOC positions.
+
+Thank you for visiting — feel free to explore the folders above!
 
 ## Repository Structure
 - **home-lab/** → VirtualBox setups, Windows troubleshooting, Active Directory basics (A+ focus)
@@ -22,12 +63,4 @@ This repo documents my deliberate hands-on practice to break into IT support / c
 - **Mock SOC Alert Triage** → [incident-response-practice/mock-alert-triage/](incident-response-practice/mock-alert-triage/)  
   Simulated alerts with triage steps and escalation rationale.
 
-## How This Portfolio Was Built
-- VirtualBox home lab for safe, repeatable troubleshooting
-- HTB for offensive/defensive basics
-- Documentation emphasis: screenshots, commands, lessons learned, policy ties
-- Ongoing: Adding more labs as I progress through A+/Security+ and UMGC courses
 
-Open to entry-level IT Help Desk, Service Desk Technician, or Junior SOC Analyst opportunities in Tampa Bay. Let's connect!
-
-Last updated: March 2026
