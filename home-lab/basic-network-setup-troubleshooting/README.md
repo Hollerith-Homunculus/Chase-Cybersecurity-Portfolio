@@ -15,13 +15,12 @@ This folder documents foundational networking projects using my home lab hardwar
 
 | Date       | Project / Topic                        | Key Skills Demonstrated                          | Status      | Link |
 |------------|----------------------------------------|--------------------------------------------------|-------------|------|
-| 2026-04-xx | pfSense Firewall Installation & Basic Rules | Firewall deployment, NAT, outbound rules        | Complete    | [2026-05-02-pfSense-Firewall-Setup.md](./2026-05-02-pfSense-Firewall-Setup.md) |
-| 2026-05-xx | Network Segmentation & VLAN Basics     | Logical separation, inter-VLAN routing          | In Progress | [2026-05-02-VLAN-Segmentation-Basics.md]|
-| 2026-05-xx | Wireshark Packet Capture & Analysis    | Traffic inspection, protocol analysis           | Complete    | [2026-05-02-Wireshark-Basics.md]|
-| 2026-05-xx | Common Connectivity Troubleshooting    | IP config, DNS, DHCP issues                     | Complete    | [2026-05-02-Common-Connectivity-Troubleshooting.md] |
+| 2026-04-25 | pfSense Firewall Installation & Basic Rules | Firewall deployment, NAT, outbound rules        | Complete    | [2026-05-02-pfSense-Firewall-Setup.md](./2026-05-02-pfSense-Firewall-Setup.md) |
+| 2026-04-24 | Network Segmentation & VLAN Basics     | Logical separation, inter-VLAN routing          | In Progress | [2026-05-02-VLAN-Segmentation-Basics.md](./05-02-VLAN-Segmentation-Basics.md)|
+| 2026-04-26 | Wireshark Packet Capture & Analysis    | Traffic inspection, protocol analysis           | Complete    | [2026-05-02-Wireshark-Basics.md](./05-02-Wireshark-Basics.md)|
+| 2026-04-27 | Common Connectivity Troubleshooting    | IP config, DNS, DHCP issues                     | Complete    | [2026-05-02-Common-Connectivity-Troubleshooting.md](./05-02-Common-Connectivity-Troubleshooting.md)|
 | ...        | ...                                    | ...                                              | ...         | ... |
 
-*(Keep this table updated as you add more files)*
 
 ## Lab Network Architecture Overview
 - **Internet/WAN** → pfSense firewall → Internal LAN
