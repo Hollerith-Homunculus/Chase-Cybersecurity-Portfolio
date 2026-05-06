@@ -1,0 +1,20 @@
+Today, I completed my eighth course in my Cybersecurity Master's Program. Although the final grade has not been released yet, I will be passing with an A.
+That's the only good news. The bad news is my attempt to install and configure Wazuh. A while ago, I took on the task of installing Proxmox onto an
+old gaming desktop I have so that I could use it as a hub for running VMs and containers. The regular setup part went fine, but the problem was connecting
+the computer to the web API. Once I managed to access the interface, I was unable to proceed because I kept running into an authentication error. My
+attempts to fix this failed, and, becoming incredibly frustrated, I put it on the backburner.
+
+Fast Forward to the present, and I decided to take on the project of deploying a SIEM so I can track and manage my home network for better
+security. I chose Wazuh since it's free and open-source. I would quickly learn, however, that I would once again fall into the same problem.
+After installing Ubuntu Server onto the gaming PC, I managed to successfully connect to it via SSH on my primary laptop. This felt great,
+and allowed me to gain some more knowledge of the CLI and Powershell. Unfortunately, that's where the fun ended. The next two hours were filled with
+frantic forum-searching, errors, and a conversation loop with Grok. 
+
+I did such things as starting, restarting and verifying that the Wazuh Services were installed correctly, verify that the device could connect to the internet,
+reconfigure the firewall, manually edit the .yml files in an effort to reassign port numbers and IP addresses, and attempted to create missing directories
+from scratch.
+
+The issues were that I could not connect to tthe Web API. At first, it claimed that the response time was taking too long, then after some of the above 
+tinkering, it said the connection was refused. I consulted Grok, who provided much of the troubleshooting advice. However, this advice began to loop, and I
+realized I was getting nowhere closer to solving the problem. I don't know how to fix this problem so once again, I am putting this on the backburner
+and if I do pick it up again, I may switch to Splunk, or another SIEM that doesn't require me to connect to a web API.
