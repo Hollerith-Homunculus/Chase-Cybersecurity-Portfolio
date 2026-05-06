@@ -1,6 +1,6 @@
 # Wazuh SIEM Server + Agent Deployment
 
-**Date**: May 2, 2026  
+**Date**: May 5, 2026  
 **Category**: Home Lab / SOC Monitoring & Detection  
 **Related To**: Security+ (Domain 4: Security Operations), SOC Analyst fundamentals (log ingestion, alert triage, SIEM)
 
@@ -11,7 +11,8 @@ Deploy a functional open-source SIEM (Wazuh) to centralize logs from multiple Wi
 - **Wazuh Server**: Ubuntu desktop (main lab server)
 - **Agents**:
   - 2× Windows 11 laptops
-  - 2× Windows 10 laptops
+  - 1x Debian Laptop
+  - 1x Currently unassigned laptop
   - Raspberry Pi (Linux agent)
 - **Additional Tools**: Web browser for Wazuh dashboard, optional pfSense for network segmentation
 - **Isolation**: All machines on isolated lab network (no production data)
