@@ -1,0 +1,11 @@
+Today, I decided to shift gears and attempt to practice some HTB modules. By sheer coincidence, it happened to be the exact same 
+modules that covered the types of Bash/Shell commands that I was having trouble with yesterday. It also involved a lab on
+establishing a connection from an IP to a web API, and I ran into the exact same problems as yesterday. The connection
+was refused, and no matter what I tried: manually reassigning ports, editing config and yaml files, trying different IP addresses,
+nothing worked. I genuinely don't know what is wrong. The only other theory I have is that it has to do with the firewall or 
+antivirus, but I don't have the skills to configure either of those. Although having a SIEM is invaluable and will eventually 
+become a part of my setup once I can exorcise whatever demons are clearly haunting me, I am permanently putting those efforts
+aside and switching to establishing VMs and figuring out the controls there. I have already taken the first step by installing
+a VM for Windows Server 2022 that I will eventually use to manage other Windows VMs. I attempted to follow some instructions for
+creating a static IP address, which included disabling DHCP, but it doesn't seem to have worked. I'll have to work on that
+tomorrow. Today was another grind, but hopefully it's bringing me closer to my goals.
