@@ -176,6 +176,6 @@ If you only do 10 things, do these:
 8.	Run attacks over time (not once)
 9.	Log and classify failures clearly
 10.	Re run tests before every change
-Below is a practical red team checklist for AI agents, explicitly mapped to the NIST AI Risk Management Framework (AI RMF). It is written so security, risk, AI, and platform teams can all use the same artifact and evidence it during audits or governance reviews.
-The structure follows NIST’s four core functions: Govern, Map, Measure, Manage, and aligns with the Generative AI Profile (NIST AI 600 1) where relevant.
+
+
 
